@@ -11,9 +11,8 @@ public class ClimaService {
 	@Autowired
 	private WeatherAPI api;
 
-	public WhaterDTO getClima() {
-		return api.getClima();
+	public WhaterDTO getClimaLL(String latitude, String longitude) {
+		return api.getClimaLL(latitude, longitude);
 	}
-	
 	
 }
