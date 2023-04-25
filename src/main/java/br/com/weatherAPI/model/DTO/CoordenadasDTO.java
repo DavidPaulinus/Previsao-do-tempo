@@ -1,8 +1,8 @@
-package br.com.weatherAPI.model;
+package br.com.weatherAPI.model.DTO;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
+import br.com.weatherAPI.model.Results;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Hourly {
-	private List<LocalDateTime> time;
-	private List<Double> temperature_2m;
+public class CoordenadasDTO {
+	private List<Results> data;
 }
