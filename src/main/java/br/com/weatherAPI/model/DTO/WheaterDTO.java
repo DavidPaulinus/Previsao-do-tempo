@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class WhaterDTO {
+public class WheaterDTO {
 	private Double latitude;
 	private Double longitude;
 	private Double elevation;
